@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - DriveNow</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        xintegrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body class="bg-light">
+
+    <!-- 1. Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-4" href="#">DriveNow</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://127.0.0.1:5500/aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold active" aria-current="page" href="contact_us.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <!-- LINK MATCHES LOCAL PATHS -->
+                        <a class="nav-link" href="http://127.0.0.1:5500/carpageimage/booking.html?#">Book Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 2. Hero Section: Contact Intro -->
+    <header class="py-5 bg-primary text-white text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold mb-3">Get In Touch With DriveNow</h1>
+            <p class="lead text-light opacity-75">We're here to help you with your booking, questions, or feedback.</p>
+        </div>
+    </header>
+
+    <!-- 3. Contact Content Section (Form and Info) -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-5">
+
+                <!-- Left Column: Contact Form -->
+                <div class="col-lg-7">
+                    <div class="p-4 bg-white rounded-4 shadow-lg h-100">
+                        <h2 class="fw-bold mb-4 border-bottom pb-2">Send Us a Message</h2>
+                        <form class="row g-3">
+                            <div class="col-md-6">
+                                <label for="inputName" class="form-label fw-bold">Full Name</label>
+                                <input type="text" class="form-control rounded-3" id="inputName" placeholder="John Doe"
+                                    required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputEmail" class="form-label fw-bold">Email Address</label>
+                                <input type="email" class="form-control rounded-3" id="inputEmail"
+                                    placeholder="you@example.com" required>
+                            </div>
+                            <div class="col-12">
+                                <label for="inputSubject" class="form-label fw-bold">Subject</label>
+                                <input type="text" class="form-control rounded-3" id="inputSubject"
+                                    placeholder="Inquiry about a rental" required>
+                            </div>
+                            <div class="col-12">
+                                <label for="inputMessage" class="form-label fw-bold">Message</label>
+                                <textarea class="form-control rounded-3" id="inputMessage" rows="5"
+                                    placeholder="Enter your detailed message here..." required></textarea>
+                            </div>
+                            <div class="col-12 mt-4">
+                                <button type="submit" class="btn btn-primary btn-lg rounded-pill px-5">Submit
+                                    Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Right Column: Key Contact Info -->
+                <div class="col-lg-5">
+                    <div class="p-4 bg-info bg-opacity-10 rounded-4 shadow-sm h-100">
+                        <h2 class="fw-bold mb-4 border-bottom border-secondary pb-2">DriveNow Details</h2>
+
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="me-3 fs-4">📧</div>
+                            <div>
+                                <h3 class="h6 fw-bold mb-0">Email Us</h3>
+                                <p class="mb-0 text-muted">support@drivenow.com</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="me-3 fs-4">📞</div>
+                            <div>
+                                <h3 class="h6 fw-bold mb-0">Call Center</h3>
+                                <p class="mb-0 text-muted">+1 (555) 123-4567 (24/7)</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-start mb-4">
+                            <div class="me-3 fs-4">📍</div>
+                            <div>
+                                <h3 class="h6 fw-bold mb-0">Our Global HQ</h3>
+                                <p class="mb-0 text-muted">100 DriveNow Plaza, Suite 200, Metropolis, USA 10001</p>
+                            </div>
+                        </div>
+
+                        <hr class="my-4">
+
+                        <h3 class="h5 fw-bold mb-3">Office Hours</h3>
+                        <p class="mb-0 text-muted">Monday - Friday: 9:00 AM - 5:00 PM (Local Time)</p>
+                        <p class="mb-0 text-muted">Customer Support is available 24/7 via phone.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Footer (Simple placeholder) -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2025 DriveNow Car Rentals. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        xintegrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
